@@ -8,4 +8,31 @@
 	padding:0;
 	box-sizing:border-box;
 	scroll-behaviour:smooth;
- }
+	scroll-padding-top:2rem;
+}
+	/* variables */
+:root{
+
+	--main-color:#647bff;
+	--body-color:#090a1a;
+	--container-color:#171b3c;
+	--heading-color:#222321;
+	--box-color:#0d0f26;
+	--bg-color:#fff;
+}
+body{
+	color:var(--bg-color);
+	background:var(--body-color);
+}
+img{
+	width:100%;
+}
+section{
+	padding:3rem 0 2rem;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
