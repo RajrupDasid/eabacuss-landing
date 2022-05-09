@@ -169,12 +169,79 @@
         <!--Headings-->
         <h2 class="heading">Reviews</h2>
         <!--Reviews content-->
-        <div class="reviews-content">
+        <div class="reviews-content swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- Review --box-->
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right' ></i>
+                        <p class="review-text">
+                            Nice company , WorkDone even before ending time.
+                        </p>
+                        <div class="review-profile">
+                            <h2>Audrey Bella</h2>
+                            <span>From Finland</span>
+                            <img src="img/review1.jpg" alt="review"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- Review --box-->
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right' ></i>
+                        <p class="review-text">
+                            Nice company , WorkDone even before ending time.
+                        </p>
+                        <div class="review-profile">
+                            <h2>Alexa</h2>
+                            <span>From USA</span>
+                            <img src="img/review3.jpg" alt="review"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- Review --box-->
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right' ></i>
+                        <p class="review-text">
+                            Nice company , WorkDone even before ending time.
+                        </p>
+                        <div class="review-profile">
+                            <h2>Mark Jhonson</h2>
+                            <span>From Canada</span>
+                            <img src="img/review2.jpg" alt="review"></img>
+                        </div>
+                    </div>
+                </div>
 
+
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
 
     </section>
-
+    <!-- contact form-->
+    <section class="contact container" id="contact">
+        <!--Heading-->
+        <h2 class="heading">Contact</h2>
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email address..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="write message here..." class="message" required></textarea>
+            <input type="submit" value="send" class="send-btn">
+        </form>
+    </section>
+    <!-- Email js Link-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--SWEET ALERT-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("OCgNQpCCGj_Z9rK21");
+        })();
+    </script>
+    
+    <!--sweet Alert js link-->
     <!--Link Swiper js-->
     <script src="js/swiper-bundle.min.js"></script>
     <!-- js linking-->
