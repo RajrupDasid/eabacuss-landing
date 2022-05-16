@@ -487,6 +487,15 @@ header{
     background:#546eff;
     transition:0.3s all linear;
 }
+
+.contact h4{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    font-size:23.8px;
+    row-gap:1.4rem;
+}
+
 .footer{
     display: flex;
     align-items:center;
